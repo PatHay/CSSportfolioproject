@@ -1,5 +1,5 @@
 #container{
-background-color: beige;
+background-color: #F9F9F9;
 width: 1000px;
 padding: 20px;
 overflow: hidden;
@@ -24,7 +24,7 @@ text-align: right;
 margin-top: 5px;
 }
 #body{
-    background: purple;
+    background:radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(28,9,14,1) 100%);
     display: inline-block;
     height: 1000px;
     width: 980px;
@@ -38,68 +38,101 @@ margin-top: 5px;
     display: inline-block;
     height: 262px;
 }
+#profile{
+    max-height: 275px;
+    width: 400px;
+}
 .bodbox{
     height: 272px;
-    width: 535px;
+    width: 525px;
     display: inline-block;
     background-color: lavender;
     vertical-align: top;
+    margin-left: 10px;
 }
 .about{
     background-color: grey;
     height: 30px;
-    width: 535px;
+    width: 525px;
     padding-top: 15px;
     display: inline-block;
     font-size: large;
     font-weight: bold;
     color: white;
+    text-indent: 10px;
+}
+.hello{
+    margin: 10px;
 }
 #midb{
     padding: 15px;
 }
 #lamode{
-    height: 300px;
-    width: 310px;
+    height: 625px;
+    width: 305px;
     display: inline-block;
     background-color: lavender;
     vertical-align: top;
 }
 #family{
-    height: 300px;
-    width: 310px;
+    height: 625px;
+    width: 305px;
     display: inline-block;
     background-color: lavender;
     vertical-align: top;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 #fiveEleven{
-    height: 300px;
-    width: 310px;
+    height: 625px;
+    width: 305px;
     display: inline-block;
     background-color: lavender;
     vertical-align: top;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 .midtitle{
     background-color: grey;
     height: 30px;
-    width: 310px;
+    width: 305px;
     padding-top: 15px;
     display: inline-block;
     font-size: large;
     font-weight: bold;
     color: white;
+    text-indent: 10px;
 }
 .midcontent{
     height: 150px;
+    font-size: 11pt;
+    margin: 10px;
+}
+.pic{
+    width: 305px;
+    height: 30%;
+}
+.mini{
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+}
+.bot{
+    border-radius: 5px;
+    background-color: green;
+    display: inline;
+    margin-left: 110px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
     font-size: 11pt;
 }
 #footer{
     text-align:center;
     width: 1000px;
+    font-size:16px;
+    margin-top: 5px;
+    margin-bottom: -5px;
 }
-img{
-    max-height: 300px;
-    max-width: 400px;
+.tiny{
+    height: 20px;
+    width: 20px;
 }
