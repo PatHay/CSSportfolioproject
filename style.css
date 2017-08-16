@@ -1,0 +1,105 @@
+#container{
+background-color: beige;
+width: 1000px;
+padding: 20px;
+overflow: hidden;
+}
+#title{
+    margin-top: -20px;
+    padding: 10px 20px;
+}
+#tleft{
+font-size: 200%;
+font-weight: bold;
+width: 475px;
+display: inline-block;
+vertical-align: top;
+}
+#tright{
+font-size: 150%;
+font-weight: bold;
+width: 475px;
+display: inline-block;
+text-align: right;
+margin-top: 5px;
+}
+#body{
+    background: purple;
+    display: inline-block;
+    height: 1000px;
+    width: 980px;
+    padding: 10px;
+}
+#topb{
+    padding: 15px;
+}
+.profilepic{
+    border: 5px solid gray;
+    display: inline-block;
+    height: 262px;
+}
+.bodbox{
+    height: 272px;
+    width: 535px;
+    display: inline-block;
+    background-color: lavender;
+    vertical-align: top;
+}
+.about{
+    background-color: grey;
+    height: 30px;
+    width: 535px;
+    padding-top: 15px;
+    display: inline-block;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+#midb{
+    padding: 15px;
+}
+#lamode{
+    height: 300px;
+    width: 310px;
+    display: inline-block;
+    background-color: lavender;
+    vertical-align: top;
+}
+#family{
+    height: 300px;
+    width: 310px;
+    display: inline-block;
+    background-color: lavender;
+    vertical-align: top;
+    margin-left: 5px;
+}
+#fiveEleven{
+    height: 300px;
+    width: 310px;
+    display: inline-block;
+    background-color: lavender;
+    vertical-align: top;
+    margin-left: 5px;
+}
+.midtitle{
+    background-color: grey;
+    height: 30px;
+    width: 310px;
+    padding-top: 15px;
+    display: inline-block;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+.midcontent{
+    height: 150px;
+    font-size: 11pt;
+}
+#footer{
+    text-align:center;
+    width: 1000px;
+}
+img{
+    max-height: 300px;
+    max-width: 400px;
+}
